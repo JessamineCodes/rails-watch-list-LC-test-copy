@@ -1,2 +1,8 @@
 <h1>Lists</h1>
 <p>Get your lists here...</p>
+
+<% @lists.each do |list| %>
+  <li><%= link_to list.name, list_path(list) %></li>
+<% end %>
+
+<%= link_to 'Make a new list', new_list_path %>
