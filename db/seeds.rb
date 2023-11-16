@@ -34,7 +34,7 @@ end
 puts "Movies done! Now for the lists..."
 puts "Creating three lists..."
 
-List.create!(name: "Hilairous Hijinks")
+List.create!(name: "Hilarious Hijinks")
 List.create!(name: "Thrilling Thrillers")
 List.create!(name: "Festive Favourites")
 
